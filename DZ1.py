@@ -5,7 +5,7 @@ Scheme Checking
 import time
 START = time.time()
 import sys
-print (sys.argv)
+print (sys.argv)  # PEP-8: E211 whitespace before '('
 INPUT_FILE = sys.argv[1]
 import xml.dom.minidom
 DOM = xml.dom.minidom.parse(INPUT_FILE)
